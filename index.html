@@ -5,9 +5,31 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js" ></script>
-    <title></title>
-  </head>
-  <body>
 
+    <title>Form Letter</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="inputName">Your Name</label>
+          <input type="name" class="form-control" id="inputName" placeholder="name">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Your Address</label>
+          <input type="address" class="form-control" id="inputAddress" placeholder="address">
+        </div>
+
+
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div class="well">
+
+
+        <p> Greetings, This is <span class="inputName"></span> writing you from sunny Portland, Oregon. It's soooo warm and pleasant here since the nuclear winter. I don't mind the fall-out cloud. It's kind of like giant snowflakes raining gamma irradiated joy upon our heads. Please send canned food......</p>
+      </div>
+    </div>
   </body>
 </html>
